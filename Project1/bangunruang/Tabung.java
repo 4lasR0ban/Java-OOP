@@ -10,5 +10,18 @@ package bangunruang;
  * @author verow
  */
 public class Tabung {
+    // atribut
+    int jari;
+    int tinggi;
+    double pi = 3.14;
+    // methods
+    public void volumeTabung(){
+        double hasil = pi * jari * jari * tinggi;
+        System.out.println("Voulme Tabung: " + hasil);
+    }
     
+    public void luasSelimutTabung(){
+        double hasil = 2 * pi * jari * tinggi;
+        System.out.println("Luas Selimut Tabung: " + hasil);
+    }
 }

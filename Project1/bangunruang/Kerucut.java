@@ -10,5 +10,19 @@ package bangunruang;
  * @author verow
  */
 public class Kerucut {
+    // atribut
+    int jari;
+    double pi = 3.14;
+    int tinggi;
+    int selimut;
+    // methods
+    public void volumeKerucut(){
+        double hasil =  (pi * jari * jari * tinggi)/3;
+        System.out.println("Volume Kerucut: " + hasil);
+    }
     
+    public void luasSelimutKerucut(){
+        double hasil = pi * jari * selimut;
+        System.out.println("Luas Selimut Kerucut: " + hasil);
+    }
 }
