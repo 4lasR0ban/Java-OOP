@@ -57,18 +57,18 @@ public class ProjectBahanBakar {
         System.out.println("Mobil E - MPV:");
         double Ebb = mpv.hitungBahanBakar(539.4);
         double Ew = mpv.hitungWaktu(64, 539.4);
-        System.out.println("waktu yang dibutuhkan (Solo-Banten): " + 
+        System.out.println("waktu yang dibutuhkan (Solo-Banyuwangi): " + 
                 String.format("%.2f", Ew) + " Jam");
-        System.out.println("Bahan bakar minimal (Solo-Banten): " + 
+        System.out.println("Bahan bakar minimal (Solo-Banyuwangi): " + 
                 Math.ceil(Ebb) + " liter");
         System.out.println("========================================");
         
         System.out.println("Mobil F - MPV:");
         double Fbb = mpv.hitungBahanBakar(431.1);
         double Fw = mpv.hitungWaktu(53, 431.1);
-        System.out.println("waktu yang dibutuhkan (Solo-Banten): " + 
+        System.out.println("waktu yang dibutuhkan (Solo-Jember): " + 
                 String.format("%.2f", Fw) + " Jam");
-        System.out.println("Bahan bakar minimal (Solo-Banten): " + 
+        System.out.println("Bahan bakar minimal (Solo-Jember): " + 
                 Math.ceil(Fbb) + " liter");
         System.out.println("========================================");
     }
